@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+#adding paperclip for easy upload
+gem 'paperclip', '~> 5.1'
+
+#adding devise for authentication 
+gem 'devise', '~> 4.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
